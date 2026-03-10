@@ -1,0 +1,21 @@
+{
+  "name": "@riddle-master/backend",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@openrouter/ai-sdk-provider": "^2.2.5",
+    "@riddle-master/core": "*",
+    "ai": "^6.0.116",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}

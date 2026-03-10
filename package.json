@@ -1,0 +1,14 @@
+{
+  "name": "riddle-master-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:core": "npm run build -w packages/core",
+    "dev:backend": "npm run dev -w packages/backend",
+    "dev:frontend": "npm run dev -w packages/frontend",
+    "dev": "npm run build:core && npm run dev:backend & npm run dev:frontend"
+  }
+}
