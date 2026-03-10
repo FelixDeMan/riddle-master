@@ -60,3 +60,5 @@ I chose this model for its extremely fast inference speed and cost-effectiveness
 - **Streaming UI:** Stream the LLM's response text token-by-token into the dialogue box *while* holding the score calculation until the end, to make the experience feel significantly more responsive.
 - **Items & Abilities:** Expand the RPG mechanics by allowing the player to use "hints" (items) or giving the Riddle Master different personalities and "elemental" riddle themes.
 - **Audio & Animations:** Add 8-bit sound effects, screen shakes on taking damage, and better CSS sprite sheet animations to polish the RPG nostalgia factor.
+
+P.S. The answer to the riddles is logged in the server console 😉
